@@ -1,0 +1,24 @@
+.home {
+  width: 100%;
+  display: flex;
+  padding-top: 70px;
+  background-color: white; }
+  @media screen and (max-width: 768px) {
+    .home {
+      flex-direction: column-reverse; } }
+
+.homeImage {
+  width: 50%; }
+  @media screen and (max-width: 768px) {
+    .homeImage {
+      width: 100%; } }
+
+.title {
+  color: #9575cd;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: uppercase; }
+  @media screen and (max-width: 768px) {
+    .title {
+      height: 200px; } }

@@ -1,0 +1,59 @@
+.form {
+  padding: 100px 0px;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (max-width: 768px) {
+    .form {
+      width: 80%;
+      align-items: flex-end; } }
+
+.input {
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #9575cd;
+  font-size: 15px;
+  padding-left: 6px;
+  outline: none; }
+  @media screen and (max-width: 768px) {
+    .input {
+      width: 100%; } }
+
+.input:focus {
+  border-bottom-width: 2px; }
+
+.submitButton {
+  width: 110px;
+  height: 40px;
+  background-color: #9575cd;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  cursor: not-allowed; }
+
+.address {
+  height: 500px;
+  width: 100%;
+  display: flex; }
+  .address iframe {
+    width: 50%; }
+    @media screen and (max-width: 768px) {
+      .address iframe {
+        width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .address {
+      flex-direction: column-reverse; } }
+
+.addressTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #9575cd;
+  font-size: 2.5em; }
+  @media screen and (max-width: 768px) {
+    .addressTitle {
+      margin: 40px auto; } }

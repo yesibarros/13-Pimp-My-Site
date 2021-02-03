@@ -1,0 +1,29 @@
+@import "./colors.scss";
+
+.home {
+  width: 100%;
+  display: flex;
+  padding-top: 70px;
+  background-color: $primary;
+  @media screen and(max-width: 768px){
+    flex-direction: column-reverse;
+  }
+}
+
+.homeImage {
+  width: 50%;
+  @media screen and(max-width: 768px){
+    width: 100%;
+  }
+}
+
+.title {
+  color: $secondary;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  @media screen and(max-width: 768px){
+    height: 200px;
+  }
+}
